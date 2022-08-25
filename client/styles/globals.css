@@ -1,0 +1,34 @@
+:root {
+  --violet: rgb(72, 32, 176);
+  --pink: rgb(235, 1, 141);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--pink);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+img {
+  border-radius: 3px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
